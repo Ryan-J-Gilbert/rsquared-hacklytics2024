@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistical Arbitrage Trading</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></head>
+    <style>p {font-size: 18px;}</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{ url_for('index') }}">QI</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('statarb') }}">Stat Arb</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('machinelearning') }}">ML</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+    
+    <div class="container">
+        <h1 class="mt-4">Quant Inform</h1>
+        <strong><h3 class="mt-4">Welcome to Our Platform</h3></strong>
+        <p class="mt-4">Discover the world of quantitative finance with us. Our platform is dedicated to simplifying complex financial concepts and empowering individuals to make informed trading decisions.</p>
+        <strong><h3 class="mt-4">Understanding Statistical Arbitrage</h3></strong>
+        <p class="mt-4">Statistical arbitrage is a strategy that involves exploiting pricing inefficiencies between assets based on statistical models. We provide insights into how this approach can be used to identify trading opportunities and maximize returns.</p>
+        <strong><h3 class="mt-4">Harnessing Machine Learning for Trading Strategies</h3></strong>
+        <p class="mt-4">Explore the power of machine learning in predicting market trends and optimizing trading strategies. Our platform offers resources to help you leverage ML algorithms for more effective decision-making in the financial markets.</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

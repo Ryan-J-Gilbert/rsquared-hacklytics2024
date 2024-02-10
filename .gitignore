@@ -1,0 +1,5 @@
+nsadata/logins.txt
+website/venv/
+.env
+website/__pycache__/
+demovideo.mkv
