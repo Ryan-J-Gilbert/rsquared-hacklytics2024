@@ -9,9 +9,9 @@ Welcome to Quant Inform! This repository houses the codebase for our platform de
 
 Quant Inform offers an interactive environment where users can explore various quantitative trading strategies and concepts. Here's what you'll find on our website:
 
-- **Statistical Arbitrage:** Discover the power of statistical arbitrage by exploring our interactive tools and generated graphs. Learn how to identify anomalies between cointegrated assets and capitalize on them to potentially maximize returns.
+- **Statistical Arbitrage:** Discover the power of statistical arbitrage by exploring our interactive tools and generated graphs. Learn how to identify anomalies between cointegrated assets and capitalize on them to maximize returns potentially.
 
-- **Machine Learning-Based Strategy:** Dive into machine learning-based trading strategies and adjust inputs and parameters to refine your approach. Explore the results and tailor your strategy to suit your trading goals.
+- **Machine Learning-Based Strategy:** Dive into machine learning-based trading strategies and adjust inputs and parameters to refine your approach. You can explore the results and tailor your strategy to suit your trading goals.
 
 # NSA Challenge
 
